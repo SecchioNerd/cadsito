@@ -4,6 +4,13 @@ body {
     margin: 25px;
 }
 
+@media (max-width: 620px) {
+    body {
+        margin: 15px;
+        zoom: 100%;
+    }
+}
+
 h1 {
     border-bottom: 4px solid red;
     padding-bottom: 15px;
