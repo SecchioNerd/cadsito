@@ -18,3 +18,15 @@ hr {
     color: red;
     font-size: 70px;
 }
+
+button {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 30px;
+    background: red;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+}
