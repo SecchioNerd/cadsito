@@ -3,3 +3,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 25px;
 }
+
+h1 {
+    border-bottom: 4px solid red;
+    padding-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid red;
+}
+
+#autocad {
+    color: red;
+    font-size: 70px;
+}
