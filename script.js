@@ -6,9 +6,15 @@ function associazione() {
 
 const themeToggleButton = document.getElementById('themeToggleButton');
 
+// Apply saved theme (if any)
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+    document.body.classList.add('dark');
+    themeToggleButton.textContent = '☀️ Light mode';
+};
+// Toggle and save to click
 themeToggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-
-    if (document.body.classList.contains('dark')) themeToggleButton.textContent = '☀️ Modalità chiara';
-    else themeToggleButton.textContent = '🌙 Modalità scura';
+    const isDark = document.body.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    themeToggleButton.textContent = isDark ? '☀️ Light mode' : '🌙 Dark mode';
 });
