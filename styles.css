@@ -28,7 +28,7 @@ body {
 }
 
 #themeToggleButton:hover {
-    background: darkred;
+    background: #c20000;
 }
 
 @media (max-width: 620px) {
@@ -65,6 +65,11 @@ hr {
     color: white;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+#servoDellaGlebaButton:hover {
+    background: #c20000;
 }
 
 a {
