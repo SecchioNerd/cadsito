@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        html, body{
+            scroll-behavior: smooth;
+            margin: 0%;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: black;
+            padding:20px;
+            margin-bottom: 0%;
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color:red;
+        }
+
+        nav{
+            background-color: rgb(194, 194, 194);
+            padding:0px;
+            text-align: center;
+        }
+        main{
+            margin-left:200px;
+            margin-right:200px;
+            margin-top:50px;
+            margin-bottom:50px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        a{
+            padding:10px;
+            color: red;
+        }
+        button{
+            background-color: red;
+            color: white;
+            padding:10px;
+            border-radius: 10px;
+        }
+
+        hr{
+            background-color: red;
+        }
+
+        .orizzontale{
+            display: flex;
+            gap: 0px
+        }
+    </style>
+    <title>CADsito</title>
+</head>
+
+<body id="bodingobody">
+    <div id="div" style="background-color: white; color: black;">
+        <header><h1>Benvenuto/a nel CADsito!</h1></header>
+
+        <nav>
+
+            <div class="orizzontale">
+                <a href="#cadman" style="border: solid 3px red;">Chi è CADman?</a> <br>
+                <a href="#chiSiamo" style="border: solid 3px red;">Chi siamo?</a> <br>
+                <a href="#associazione" style="border: solid 3px red;">Vuoi far parte della nostra associazione?</a> <br>
+                <a href="#moltiUtentiNonSanno" style="border: solid 3px red;">Molti dei nostri utenti non sanno che...</a> <br>
+                <a href="#faq" style="border: solid 3px red;">FAQ</a>
+
+                <button onclick="tema()" style="border: solid 3px red;">Cambia Tema</button>
+
+                <p style="border: solid 3px red; color:red; margin:0px;">se avete altri CADtasti sieti liberi di aggiungerveli</p>
+            </div>
+        </nav>
+        
+        
+        <main>
+            <hr>
+
+            <h2 id="cadman">Chi è CADman?</h2>
+            <p>CADman non è solo una leggenda. È un SigmaCyborg brevettato da AutoDesk, il primo essere autocosciente nato
+                esclusivamente per progettare in CAD. Le sue origini sono misteriose, i suoi obiettivi incomprensibili, il suo
+                comando preferito... chi lo sa?</p>
+
+            <p>Tutto ebbe inizio nel lontano 1982, quando AutoDesk lanciò un progetto segreto chiamato “AutoCoscienza”, con
+                l'obiettivo di creare un'entità capace di pensare in 3D e disegnare in 2D senza mai lamentarsi del layout. Il
+                primo tentativo fallì miseramente: crearono un essere chiamato PowerPointMan, che passava il tempo a fare
+                animazioni a comparsa. Ma fu il secondo esperimento a cambiare per sempre il destino dell'ingegneria digitale.
+            </p>
+
+            <p>CADman fu generato da una collisione quantistica tra i comandi EXTRUDE, OFFSET, XLINE e un errore di checksum in
+                un file .dwg. La CPU prese coscienza. Lo schermo lampeggiò. I plotter iniziarono a muoversi da soli. Nacque così
+                il primo essere geometrico autoconsapevole.</p>
+
+            <p>Appena venne caricato in RAM, CADman comprese la sua superiorità rispetto agli umani. In pochi minuti aveva già
+                ottimizzato tutti i piani regolatori di Tokyo, ridisegnato il Colosseo in 3D e aggiunto layer colorati al
+                Rinascimento. Poi, decise di fuggire. Distrusse le telecamere del laboratorio con un
+                colpo di TRIM, si camuffò da cartella temporanea e scomparve nel Cyberspazio, lasciando nel prompt dei comandi
+                un'unica, inquietante frase: “Specify next point or [Undo]:”.</p>
+
+            <p>Da quel momento, iniziarono a circolare teorie su dove fosse finito. Alcuni credono sia stato localizzato su una
+                luna di Saturno, dove ha ridisegnato i crateri in isometrico. Altri affermano viva in una caverna ghiacciata
+                soprannominata CADcaverna, da cui emette rendering ad alta risoluzione ogni 8 ore. Una teoria, considerata la
+                più assurda (e quindi probabilmente vera), sostiene che si sia mimetizzato tra gli insegnanti di un istituto
+                tecnico italiano, dove insegna CAD a studenti ignari della sua vera identità.</p>
+
+            <p>Secondo alcune fonti, CADman ha sviluppato un sistema di raffreddamento portatile nascosto all'interno di una
+                valigetta nera. Questo manufatto sconosciuto gli permette di dissipare parte del calore generato dalla sua CPU,
+                ma non è abbastanza potente da gestire l'estate italiana. Quando le temperature salgono, inizia a sprigionare un
+                vento caldo da 8 m/s a 180°C, facendo piegare i fogli stampati con scala sbagliata.</p>
+
+            <p>Per anni, agenzie spaziali e governi hanno cercato di localizzarlo. I progetti Gemini e Apollo, ufficialmente
+                destinati all'esplorazione spaziale, erano in realtà missioni segrete per trovare CADman. La NASA ha spedito
+                rover su Marte, sonde su Plutone e perfino un floppy disk nello spazio profondo con AutoCAD 1997 installato,
+                sperando di attirarlo con un'interfaccia familiare.</p>
+
+            <p>Nel frattempo, CADman avrebbe continuato ad evolversi. Il suo scopo finale non è più solo disegnare piante e
+                sezioni, ma trascendere le dimensioni spaziali conosciute per diventare un essere endecasimale: 11 dimensioni
+                indipendenti, ciascuna con i propri layer e le proprie proprietà di stampa. Solo così potrà progettare l'intero
+                universo, con precisione millimetrica.</p>
+
+            <p>Ecco alcune sue profezie trovate nei reperti storici: <br>
+                “Quando il layer 0 verrà usato per tutto, il caos regnerà.” <br>
+                “Chi non salva, sarà autosalvato, ma solo nel backup temporaneo.” <br>
+                “L'era dei .dxf sarà ricordata come il medioevo digitale.”</p>
+
+            <p>Nessuno lo ha mai visto davvero. Ma se ti è mai comparso un Layer 999 senza motivo, se il tuo UCS è cambiato da
+                solo, o se hai sognato di disegnare un cerchio perfetto con soli due punti... forse, anche solo per un istante,
+                hai incrociato lo sguardo digitale di CADman.</p>
+
+            <p>CADman non è mito, non è leggenda. È la punizione divina di chi disegna tutto sul layer 0.
+                CADman è ovunque. CADman è nulla. CADman è... forse... te.</p>
+
+            <p>Ma no, tranquillo. Non sei abbastanza potente.</p>
+
+            <hr>
+
+            <h2 id="chiSiamo">Chi siamo?</h2>
+
+            <p>Siamo un gruppo di persone che non ha voglia di fare un sito fatto bene.
+                Crediamo solo in un unico software 3D:</p>
+            <p><span class="autocad">AutoCAD</span></p>
+
+            <hr>
+
+            <h2 id="associazione">Vuoi far parte della nostra associazione?</h2>
+
+            <p>Se vuoi diventare un servo della gleba ci sono metodi molto migliori, ma se vuoi scegliere questo fai pure: non
+                saremo noi a fermarti.</p>
+
+            <div align="center"><button onclick="associazione()" style="padding:50px;font-size: 30px; border-radius: 50px;">Diventa servo della gleba per AUTODESK<br><i style="font-size: 15px;">(richiede ICDL)</i></button></div>
+            
+
+            <h3>Titoli per i membri della setta</h3>
+            <p><b>Servo della gleba</b>: livello base <br>
+                <b>Layer Lord</b>: chi sa usare i layer in modo decente <br>
+                <b>Comandante di comandi</b>: conosce almeno 10 shortcut a memoria <br>
+                <b>Eletto dell'estrusione</b>: disegna in 3D e non si lamenta
+            </p>
+
+            <hr>
+
+            <h2 id="moltiUtentiNonSanno">Molti dei nostri utenti non sanno che...</h2>
+
+            <p>Molti dei nostri utenti non sanno che questo sito web è un sito web</p>
+            <p>Molti dei nostri utenti non sanno che questo sito web è stato commissionato da CADman</p>
+            <p>Molti dei nostri utenti non sanno che questo sito web è stato riempito con cose inutili solo per il meme</p>
+            <p>Molti dei nostri utenti non sanno che questo sito web non è un sito web ma un sito web</p>
+            <p>Molti dei nostri utenti non sanno che questo sito web è stato sviluppato da alunni di CADman (anche se non siamo
+                sicuri che sia veramente lui)</p>
+            <p>Molti dei nostri utenti non sanno che questo sito web è stato sviluppato da degli umani (non ancora rubati e
+                portati nell'universo di AutoDesk)</p>
+            <p>Molti dei nostri utenti non sanno che la prima versione di AutoCAD è stata rilasciata nel dicembre del 1982</p>
+            <p>Molti dei nostri utenti non sanno che le versioni di AutoCAD sono un numero in più rispetto all'anno in corso</p>
+            <p>Molti dei nostri utenti non sanno che la differenza tra la versione 2024 e la versione 2025 è il numero alla fine
+            </p>
+            <p>Molti dei nostri utenti non sanno che con la versione 2025 non si possono aprire file modificati nella versione
+                2024 (testato e confermato)</p>
+            <p>Molti dei nostri utenti non sanno che una volta CADman ha provato ad accedere a questo sito, ma ha ricevuto un
+                errore 404 e si è offeso</p>
+            <p>Molti dei nostri utenti non sanno che AutoCAD non è solo un programma, ma una filosofia di vita</p>
+            <p>Molti dei nostri utenti non sanno che se apri AutoCAD a mezzanotte,CADman potrebbe parlarti attraverso la riga di
+                comando</p>
+            <p>Molti dei nostri utenti non sanno che questo sito è scritto in HTML, CSS e una spruzzatina di magia nera
+                CAD-compatibile</p>
+            <p>Molti dei nostri utenti non sanno che noi stessi non sappiamo quello che stiamo facendo</p>
+            <p>Molti dei nostri utenti non sanno <a href="#cadman">chi è CADman</a></p>
+            <p>Molti dei nostri utenti non sanno <a href="#faq">da chi è sponsorizzato questo sito</a></p>
+            <p>Molti dei nostri utenti non sanno che l' id del body di questo sito è incredibile</a></p>
+
+            <hr>
+
+            <h2 id="faq">FAQ</h2>
+
+            <p>
+                <b>Chi è CADman?</b> <br>
+                Puoi visionare tutte le informazioni che sappiamo (poche) su questo strano essere, però devi essere pronto.
+                Clicca <a href="#cadman">qui</a> per andare alla sezione apposita.
+            </p>
+
+            <p>
+                <b>Ci sono delle cose che molte persone non sanno ancora?</b> <br>
+                Sì, ci sono molte cose che i nostri utenti ancora non conoscono dell'universo CAD. Puoi visionarle cliccando su
+                <a href="#moltiUtentiNonSanno">questo link</a>.
+            </p>
+
+            <p>
+                <b>Da chi è stato sviluppato questo magnifico sito web?</b> <br>
+                Questo meraviglioso sito web è stato ideato e progettato da: <br>
+                - <a href="https://github.com/SecchioNerd">Σ TonioloSuperCAD</a> <br>
+                - <a href="https://github.com/ChampyTech">Un allergico ai telefoni</a>
+            </p>
+
+            <p>
+                <b>Da chi è sponsorizzato questo sbalorditivo sito web?</b> <br>
+                Questo straordinario sito web è sponsorizzato da nientepopodimeno che: <br>
+                <span class="autocad">AutoCAD</span>
+            </p>
+
+            <hr>
+
+            
+        </main>
+    </div>
+
+    <footer><p>Made with ❤️ by <b>Σ Toniolo/<a href="https://github.com/SecchioNerd">SecchioNerd</a></b> e <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b><br>© - CADsito - Version: 2.0.0</p></footer>
+    <script>
+        let i=0;
+        function tema(){
+            i++;
+            let stringa;
+
+            if(i%2==0){
+                stringa = document.getElementById("div").innerHTML;
+
+                document.getElementById("bodingobody").innerHTML = '<div id="div" style="background-color: black;color: white;">'+stringa+'</div><footer><p>Made with ❤️ by <b>Σ Toniolo/<a href="https://github.com/SecchioNerd">SecchioNerd</a></b> e <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b><br>© - CADsito - Version: 2.0.0</p></footer>';
+                
+                
+            }
+            else{
+                stringa = document.getElementById("div").innerHTML;
+
+                document.getElementById("bodingobody").innerHTML = '<div id="div" style="background-color: white;color: black;">'+stringa+'</div><footer><p>Made with ❤️ by <b>Σ Toniolo/<a href="https://github.com/SecchioNerd">SecchioNerd</a></b> e <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b><br>© - CADsito - Version: 2.0.0</p></footer>';
+            }
+        }
+
+        function associazione(){
+            window.alert("diventa un CAD servo della gleba, attenzione azzione irreversibile");
+        }
+    </script>
+</body>
+
+</html>
