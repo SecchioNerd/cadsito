@@ -11,8 +11,12 @@
     --text-color: white;
 }
 
+<<<<<<< Updated upstream
 
 html{
+=======
+html {
+>>>>>>> Stashed changes
     scroll-behavior: smooth;
 }
 
@@ -88,20 +92,26 @@ a {
 /*cambiato da SecchioNerd...*/
 
 header{
+<<<<<<< Updated upstream
     display:flex;
     padding: 10px;
     color:white;
     background-color: red;
     gap:29%;
+=======
+    text-align: center;
+>>>>>>> Stashed changes
     padding: 10px;
     color:white;
     background-color: red;
+
+    display: flex;
+    gap:32%;
 }
 
 nav{
-    display:flex;
     padding:0px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(199, 199, 199);
     border-bottom: red solid 4px;
 }
 
