@@ -11,6 +11,10 @@
     --text-color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--bg-color);
     color: var(--text-color);
@@ -83,9 +87,11 @@ a {
 /*cambiato da SecchioNerd...*/
 
 header{
+    display:flex;
     padding: 10px;
     color:white;
     background-color: red;
+    gap:29%;
 }
 
 nav{
@@ -114,3 +120,4 @@ footer{
     padding-bottom: 10px;
     text-align: center;
 }
+
