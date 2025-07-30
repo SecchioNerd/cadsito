@@ -11,12 +11,7 @@
     --text-color: white;
 }
 
-<<<<<<< Updated upstream
-
-html{
-=======
 html {
->>>>>>> Stashed changes
     scroll-behavior: smooth;
 }
 
@@ -92,15 +87,12 @@ a {
 /*cambiato da SecchioNerd...*/
 
 header{
-<<<<<<< Updated upstream
     display:flex;
     padding: 10px;
     color:white;
     background-color: red;
     gap:29%;
-=======
     text-align: center;
->>>>>>> Stashed changes
     padding: 10px;
     color:white;
     background-color: red;
@@ -110,15 +102,18 @@ header{
 }
 
 nav{
+    position:absolute;
     padding:0px;
     background-color: rgb(199, 199, 199);
-    border-bottom: red solid 4px;
+    
+    width: 200px;
 }
 
 .indice{
     padding:10px;
-    border-left: solid 2px red;
-    border-right: solid 2px red;
+    border-left: solid 4px red;
+    border-right: solid 4px red;
+    border-bottom: solid 4px red;
 }
 main{
     margin-left:150px;
@@ -133,4 +128,11 @@ footer{
     margin: 0px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.salita{
+    position: fixed;
+    
+    bottom:20px;
+    left:10px;
 }
